@@ -226,7 +226,7 @@ export default function SearchLayout(props) {
         const option5 = {
             method: 'GET',
             url: 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather',
-            params: { city: "Bareilly" },
+            params: { city: "Kanpur" },
             headers: {
                 'X-RapidAPI-Key': '33117cbacemsh3d83ef3e3312033p141470jsn718339808033',
                 'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
@@ -525,7 +525,7 @@ export default function SearchLayout(props) {
                                 <td>{indore_winds}</td>
                             </tr>
                             <tr>
-                                <th scope="row" className="text-start">Bareilly</th>
+                                <th scope="row" className="text-start">Kanpur</th>
                                 <td>{bareilly_cloud}</td>
                                 <td>{bareilly_feelslike}</td>
                                 <td>{bareilly_humidity}</td>
@@ -542,7 +542,7 @@ export default function SearchLayout(props) {
                 </div>
             </div>
             <div className="container copy">
-                2023 &#169; Kartikay
+                2023 &#169; AYUSH
             </div>
         </div>
     )
